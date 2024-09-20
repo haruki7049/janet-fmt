@@ -36,6 +36,10 @@
             ];
           };
 
+          checks = {
+            inherit janet-fmt;
+          };
+
           packages = {
             inherit janet-fmt;
             default = janet-fmt;
